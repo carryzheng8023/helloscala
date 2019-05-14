@@ -20,7 +20,7 @@ object TypeDemo {
     sayHi()
     sayHi
 
-//    println(sayHello)
+    //    println(sayHello)
 
 
     var num = 1.2 //默认为 double
@@ -36,6 +36,15 @@ object TypeDemo {
     println("long取值范围：" + Long.MinValue + "~" + Long.MaxValue)
 
     var e = 9223372036854775807L //9223372036854775807 超过int 加L
+
+
+    println("float取值范围：" + Float.MinValue + "~" + Float.MaxValue)
+    println("double取值范围：" + Double.MinValue + "~" + Double.MaxValue)
+
+    //2.2345678912f , 2.2345678912
+    var n1: Float = 2.2345678912F
+    var n2: Double = 2.2345678912
+    println("n1=" + n1 + "\t" + "n2=" + n2)
 
   }
 

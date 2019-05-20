@@ -6,7 +6,7 @@ package xin.carryzheng.helloscala
   * @author zhengxin
   *         2019-05-13 23:35:57
   */
-object TypeDemo {
+object DataType {
 
   def main(args: Array[String]): Unit = {
     var num1: Int = 10

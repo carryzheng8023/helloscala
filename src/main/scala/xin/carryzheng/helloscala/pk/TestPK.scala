@@ -38,6 +38,7 @@ package xin.carryzheng.helloscala.pk{
   //4.包对象的名字需要和子包一样
   //5.在包对象可以定义变量和方法
   //6.在包对象中定义的变量和方法可以在对应的包中使用
+  //7.一个包会生成两个类package和package$
   package object scala{
 
     val name = "king"

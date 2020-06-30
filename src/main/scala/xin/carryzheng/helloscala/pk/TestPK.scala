@@ -32,9 +32,28 @@ package xin.carryzheng.helloscala.pk{
 
   }
 
+  //1.在包中直接定义方法、变量是错误的=> 用包对象技术来解决
+  //2.package object scala表示创建一个包对象，表示xin.carryzheng.helloscala.pk.scala对应的包对象
+  //3.每一个包可以有一个包对象
+  //4.包对象的名字需要和子包一样
+  //5.在包对象可以定义变量和方法
+  //6.在包对象中定义的变量和方法可以在对应的包中使用
+  package object scala{
+
+    val name = "king"
+    def sayHi(): Unit ={
+        print("package object scala sayHi")
+    }
+
+  }
+
   package scala{
 
-    class User{}
+    class User{
+      def testUser(): Unit ={
+        sayHi()
+      }
+    }
 
     class Person{ //表示在xin.carryzheng.helloscala.pk.scala下创建Person类
       val name = "Nick"
@@ -51,6 +70,9 @@ package xin.carryzheng.helloscala.pk{
 
         val user = new User //就近原则
         println(user)
+
+        sayHi()
+
 
       }
     }

@@ -20,7 +20,7 @@ object Scala05_Match {
 
         val list = List(
             ("河北", ( "鞋", 2 )),
-            ("河南", ( "衣服", 5 )),
+            ("河南", ( "衣服", 5 ))
         )
 
 //        val newlist = list.map(

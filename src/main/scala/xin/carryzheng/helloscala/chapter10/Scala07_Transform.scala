@@ -1,6 +1,6 @@
 package xin.carryzheng.helloscala.chapter10
 
-import com.atguigu.bigdata.scala.chapter10.Scala07_Transform.User
+import xin.carryzheng.helloscala.chapter10.Scala07_Transform.User
 
 object Scala07_Transform {
 
@@ -12,7 +12,7 @@ object Scala07_Transform {
 
         // TODO 隐式类不能作为顶级类存在，只能嵌套在内部使用
 
-        import com.atguigu.bigdata.scala.bean.ImplTest._
+        import xin.carryzheng.helloscala.bean.ImplTest._
 
         // 查找隐式转换的范围：
         // 1. 当前代码作用域

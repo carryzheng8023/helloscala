@@ -1,6 +1,6 @@
 package xin.carryzheng.helloscala.test;
 
-import static com.atguigu.bigdata.scala.bean.Emp.*;
+import static xin.carryzheng.helloscala.bean.Emp.*;
 
 public class Test10 {
     public static void main(String[] args) throws Exception {

@@ -1,6 +1,6 @@
 package xin.carryzheng.helloscala.test;
 
-import com.atguigu.bigdata.scala.chapter02.Scala01_Comment;
+import xin.carryzheng.helloscala.chapter02.Scala01_Comment;
 
 public class Test3 {
     public static void main(String[] args) throws Exception {

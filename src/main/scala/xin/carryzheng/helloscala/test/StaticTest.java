@@ -1,7 +1,7 @@
 package xin.carryzheng.helloscala.test;
 
-import com.atguigu.bigdata.scala.bean.Child;
-import com.atguigu.bigdata.scala.bean.Emp;
+import xin.carryzheng.helloscala.bean.Child;
+import xin.carryzheng.helloscala.bean.Emp;
 
 public class StaticTest {
     public static void main(String[] args) {

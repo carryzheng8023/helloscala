@@ -25,50 +25,50 @@ object Scala07_Object_Access {
 
     }
 }
-import com.atguigu.bigdata.scala.chapter06.test.test1.Test
-    import test.test1.Test
-    // 不同包
-    class Test2 {
-
-        def test(): Unit = {
-            val t = new Test()
-            //println(t.name)
-            //println(t.age)
-           // println(t.tel)
-            //println(t.remark)
-        }
-    }
-    class Test4 extends Test {
-        def test2(): Unit = {
-            println(tel)
-        }
-    }
-    class Test {
-            private var name : String = _
-            private[test1] var age : String = _
-            protected var tel : String = _
-            var remark : String = _
-
-            // 同类
-            def test(): Unit = {
-                println(name)
-                println(age)
-                println(tel)
-                println(remark)
-            }
-        }
-        // 同包
-        class Test1 {
-            def test(): Unit = {
-                val t = new Test()
-                //println(t.name)
-                println(t.age)
-                //println(t.tel)
-                println(t.remark)
-            }
-        }
-        class Test3 extends Test {
-            def test2(): Unit = {
-                println(tel)
-            }
-        }
+//import xin.carryzheng.helloscala.chapter06.test.test1.Test
+//    import test.test1.Test
+//    // 不同包
+//    class Test2 {
+//
+//        def test(): Unit = {
+//            val t = new Test()
+//            //println(t.name)
+//            //println(t.age)
+//           // println(t.tel)
+//            //println(t.remark)
+//        }
+//    }
+//    class Test4 extends Test {
+//        def test2(): Unit = {
+//            println(tel)
+//        }
+//    }
+//    class Test {
+//            private var name : String = _
+//            private[test1] var age : String = _
+//            protected var tel : String = _
+//            var remark : String = _
+//
+//            // 同类
+//            def test(): Unit = {
+//                println(name)
+//                println(age)
+//                println(tel)
+//                println(remark)
+//            }
+//        }
+//        // 同包
+//        class Test1 {
+//            def test(): Unit = {
+//                val t = new Test()
+//                //println(t.name)
+//                println(t.age)
+//                //println(t.tel)
+//                println(t.remark)
+//            }
+//        }
+//        class Test3 extends Test {
+//            def test2(): Unit = {
+//                println(tel)
+//            }
+//        }

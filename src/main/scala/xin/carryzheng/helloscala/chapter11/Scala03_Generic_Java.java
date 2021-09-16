@@ -1,6 +1,6 @@
 package xin.carryzheng.helloscala.chapter11;
 
-import com.atguigu.bigdata.scala.bean.User;
+import xin.carryzheng.helloscala.bean.User;
 
 import java.util.ArrayList;
 import java.util.Collection;

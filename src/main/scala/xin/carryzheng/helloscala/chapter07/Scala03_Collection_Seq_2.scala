@@ -7,14 +7,14 @@ object Scala03_Collection_Seq_2 {
     def main(args: Array[String]): Unit = {
 
         // TODO 集合 - Seq  - 可变序列
-       // val buffer = ListBuffer(1,2,3,4)
+        val buffer = ListBuffer(1,2,3,4)
 
 //        buffer.append(4,5)
 //        buffer.appendAll(Array(6,7))
 //        buffer.insert(2,8,9)
 //
-//        buffer.update(0, 11)
-//        buffer.updated(1,12)
+        buffer.update(0, 11)
+        buffer.updated(1,12)
 //
 //        buffer.remove(1)
 //        buffer.remove(1,2)

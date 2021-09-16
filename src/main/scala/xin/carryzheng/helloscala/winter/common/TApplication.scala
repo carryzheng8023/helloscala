@@ -1,6 +1,6 @@
 package xin.carryzheng.helloscala.winter.common
 
-import com.atguigu.bigdata.scala.winter.controller.WordCountController
+import xin.carryzheng.helloscala.winter.controller.WordCountController
 
 trait TApplication {
 

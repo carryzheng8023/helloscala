@@ -1,6 +1,6 @@
 package xin.carryzheng.helloscala.chapter02
 
-import com.atguigu.bigdata.scala.bean.Student
+import xin.carryzheng.helloscala.bean.Student
 
 object Scala08_Datatype_2 {
 

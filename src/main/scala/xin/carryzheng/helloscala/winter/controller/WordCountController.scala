@@ -1,7 +1,7 @@
 package xin.carryzheng.helloscala.winter.controller
 
-import com.atguigu.bigdata.scala.winter.common.TController
-import com.atguigu.bigdata.scala.winter.service.WordCountService
+import xin.carryzheng.helloscala.winter.common.TController
+import xin.carryzheng.helloscala.winter.service.WordCountService
 
 class WordCountController extends TController {
 

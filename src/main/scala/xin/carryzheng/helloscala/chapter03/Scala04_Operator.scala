@@ -1,6 +1,6 @@
 package xin.carryzheng.helloscala.chapter03
 
-import com.atguigu.bigdata.scala.bean.User
+import xin.carryzheng.helloscala.bean.User
 
 import scala.io.BufferedSource
 

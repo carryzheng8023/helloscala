@@ -1,7 +1,7 @@
 package xin.carryzheng.helloscala.winter.application
 
-import com.atguigu.bigdata.scala.winter.common.TApplication
-import com.atguigu.bigdata.scala.winter.controller.WordCountController
+import xin.carryzheng.helloscala.winter.common.TApplication
+import xin.carryzheng.helloscala.winter.controller.WordCountController
 
 
 object WordCountApplication extends TApplication with App {

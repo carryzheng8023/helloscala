@@ -1,7 +1,7 @@
 package xin.carryzheng.helloscala.winter.service
 
-import com.atguigu.bigdata.scala.winter.common.TService
-import com.atguigu.bigdata.scala.winter.dao.WordCountDao
+import xin.carryzheng.helloscala.winter.common.TService
+import xin.carryzheng.helloscala.winter.dao.WordCountDao
 
 class WordCountService extends TService {
 

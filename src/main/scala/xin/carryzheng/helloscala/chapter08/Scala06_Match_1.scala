@@ -14,7 +14,7 @@ object Scala06_Match_1 {
             case _ => println("用户为其他")
         }
 
-        //user.name = "zhangsan"
+//        user.name = "zhangsan"
     }
 
     // 使用case关键字声明的类，称之为样例类，专门是用于模式匹配的类

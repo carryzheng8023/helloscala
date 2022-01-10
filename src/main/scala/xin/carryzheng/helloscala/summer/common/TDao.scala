@@ -1,4 +1,4 @@
-package xin.carryzheng.helloscala.winter.common
+package xin.carryzheng.helloscala.summer.common
 
 import scala.io.{BufferedSource, Source}
 

@@ -1,5 +1,7 @@
 package xin.carryzheng.helloscala.chapter05
 
+import scala.annotation.tailrec
+
 object Scala11_Function {
 
     def main(args: Array[String]): Unit = {
@@ -17,6 +19,15 @@ object Scala11_Function {
         } else {
             //num * test(num-1)
             num + test(num-1)
+        }
+    }
+
+    @tailrec
+    def test(num: Int, result: Int): Int = {
+        if (num == 1) {
+            result
+        } else {
+            test(num - 1, num + result)
         }
     }
 }

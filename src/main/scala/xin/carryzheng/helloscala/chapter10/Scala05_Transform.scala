@@ -20,6 +20,10 @@ object Scala05_Transform {
         // 在应用隐式参数时，参数列表不需要使用小括号
         // 如果参数设定为隐式参数，但是参数没有默认值，那么调用时，如果想要使用隐式参数，但是没有找到对应的隐式变量，会发生错误
         register
+        register1
+        register1()
+        register1("55555555")
+
         // 如果明确使用小括号，意味放弃使用隐式转换
         //register()
         //register("ddddd")

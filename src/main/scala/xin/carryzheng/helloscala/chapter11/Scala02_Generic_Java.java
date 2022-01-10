@@ -11,13 +11,13 @@ public class Scala02_Generic_Java {
     public static void main(String[] args) {
 
         // TODO 泛型的使用时机
-//        List list = new ArrayList();
-//        list.add(new Emp());
-//        List<User> userList = list;
-//        //System.out.println(userList);
-//        for ( User user : userList ) {
-//            System.out.println(user);
-//        }
+        List list = new ArrayList();
+        list.add(new Emp());
+        List<User> userList = list;
+        System.out.println(userList);
+        for ( User user : userList ) {
+            System.out.println(user);
+        }
         // TODO 泛型和类型没有关系
         //List<String> stringList = new ArrayList<String>();
         //test(stringList);

@@ -1,7 +1,7 @@
-package xin.carryzheng.helloscala.winter.controller
+package xin.carryzheng.helloscala.summer.controller
 
-import xin.carryzheng.helloscala.winter.common.TController
-import xin.carryzheng.helloscala.winter.service.WordCountService
+import xin.carryzheng.helloscala.summer.common.TController
+import xin.carryzheng.helloscala.summer.service.WordCountService
 
 class WordCountController extends TController {
 

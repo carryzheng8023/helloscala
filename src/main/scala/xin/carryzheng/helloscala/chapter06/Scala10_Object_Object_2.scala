@@ -4,7 +4,7 @@ object Scala10_Object_Object_2 {
     println("aaa")
     def main(args: Array[String]): Unit = {
         println("bbb")
-        //new User("zhangsan", 30)
+        new User("zhangsan", 30)
     }
     println("ccc")
 

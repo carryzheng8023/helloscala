@@ -1,6 +1,6 @@
-package xin.carryzheng.helloscala.winter.common
+package xin.carryzheng.helloscala.summer.common
 
-import xin.carryzheng.helloscala.winter.controller.WordCountController
+import xin.carryzheng.helloscala.summer.controller.WordCountController
 
 trait TApplication {
 

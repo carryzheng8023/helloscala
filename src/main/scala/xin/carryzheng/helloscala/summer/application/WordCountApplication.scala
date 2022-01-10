@@ -1,7 +1,7 @@
-package xin.carryzheng.helloscala.winter.application
+package xin.carryzheng.helloscala.summer.application
 
-import xin.carryzheng.helloscala.winter.common.TApplication
-import xin.carryzheng.helloscala.winter.controller.WordCountController
+import xin.carryzheng.helloscala.summer.common.TApplication
+import xin.carryzheng.helloscala.summer.controller.WordCountController
 
 
 object WordCountApplication extends TApplication with App {

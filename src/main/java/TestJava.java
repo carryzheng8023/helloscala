@@ -4,13 +4,29 @@
  */
 public class TestJava {
 
-  public static void main(String[] args) {
+    public static void main(String[] args) {
 
-    new Thread(
-            () -> {
-              System.out.println("a");
-            },
-            "a")
-        .start();
-  }
+        final char[] chars = new char[]{'a', 'a', 'a'};
+        chars[1] = 'b';
+        System.out.println(chars);
+
+
+        String s2 = new String("abc");
+        String s3 = new String("abc");
+//        String s1 = "abc";
+
+        System.out.println(s2 == s3);
+
+        label11:{
+            System.out.println("sss");
+            label1: {
+                if(!s2.equals(s3)){
+                    break label11;
+                }
+            }
+        }
+
+
+
+    }
 }
